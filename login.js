@@ -10,7 +10,7 @@ class Login{
         cor:"048",
         img:"logoInfoline.png"
     }
-    //static endpoint="https://apilogin.horizontiltda.repl.co/";
+    static endpoint="https://apilogin.horizontiltda.repl.co/";
     
     static login=(callback_ok,callback_naoOk,config=null)=>{
         if(config!=null){
